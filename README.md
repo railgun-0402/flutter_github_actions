@@ -1,6 +1,15 @@
-# unittest
+# flutter_github_actions
 
-A new Flutter project.
+## 概要
+Flutterで開発するのはいいのだが、Unit Testをもう少し取り入れたかったり
+CI/CDを構築もしてみたい。
+
+## 機能
+- lint
+- Unit Test
+- build
+上記をgithub actionsを使用してCIを構築するテストリポジトリ。
+CDはストアにするかテスト環境を作成するかになるが一旦検討中。
 
 ## Getting Started
 
