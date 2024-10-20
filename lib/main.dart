@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -35,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
       _counter++;
+      print("NGが出るはず");
     });
   }
 
